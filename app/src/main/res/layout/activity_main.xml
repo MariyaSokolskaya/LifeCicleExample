@@ -26,7 +26,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="+"
+            android:text="+-"
             android:padding="10dp"
             android:layout_margin="10dp"/>
         <EditText
@@ -60,6 +60,19 @@
         android:text="@string/button1_text"
         android:drawableLeft="@drawable/cat"
         android:background="#225599"
+        android:id="@+id/plusbutton"
+        android:textSize="28sp"
+        android:onClick="calculation"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button2_text"
+        android:drawableLeft="@drawable/cat"
+        android:background="#225599"
+        android:id="@+id/minesbutton"
+        android:textSize="28sp"
+        android:onClick="calculation"
         />
 
 
